@@ -53,3 +53,47 @@ const questions = [
     correct: [1],
   },
 ];
+
+let score = 0;
+scoreDisplay.textContent = score;
+
+function populateQuestions() {
+  questions.forEach((question) => {
+    // create div for questions
+    const questionBox = document.createElement("div");
+    // add class 'question-box' to div just created
+    questionBox.classList.add("question-box");
+
+    const logoDisplay = document.createElement("h1");
+    logoDisplay.textContent = "✏️";
+    questionBox.append(logoDisplay);
+
+    question.quiz.forEach((tip) => {
+      const tipText = document.createElement("p");
+      tipText.innerHTML = tip;
+      questionBox.append(tipText);
+    });
+
+    // create div to store 2 buttons together
+    const questionButtons = document.createElement("div");
+    // add class 'question-buttons' to it
+    questionButtons.classList.add("question-buttons");
+    // append questionButtons to questionBox
+    questionBox.append(questionButtons);
+
+    // add buttons to questionButtons
+    question.quiz.forEach((option) => {
+      const questionButton = document.createElement("button");
+      questionButton.classList.add("question-button");
+      questionButton.textContent = option;
+
+      //append questionButton to questionButtons
+      questionButtons.append(questionButton);
+    });
+
+    // put the questionBox into the questionDisplay
+    questionDisplay.append(questionBox);
+  });
+}
+
+populateQuestions();
