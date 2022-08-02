@@ -19,7 +19,9 @@
 
 I completed the first game in this course from FreeCodeCamp, led by Ania Kubów. It is a single-player word association game.
 
-The CSS/styling is my own design.
+The styling is my own design.
+
+<!-- At the end of the course, I added an extra feature of my own so both of the buttons would be disabled after the user had clicked on their first choice. Before this, the user was able to click on the correct answer and score a point back if their first choice had been wrong, and vice versa: there was the danger of losing a point by being able to click on the wrong answer after submitting the correct answer first. -->
 
 ### Screenshot
 
@@ -35,25 +37,20 @@ The CSS/styling is my own design.
 
 - Semantic HTML5 markup
 - CSS
--
+- Vanilla JavaScript
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I furthered my knowledge of arrays and loops, and it was a great opportunity to practise using callback functions.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I wish to further develop my skills of arrays, loops and callback functions. I'm aiming to extend this project further through the use of an API to retrieve the information for the questions and tips rather than coding them myself.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- I used the Emojy extension on VS Code to insert emojis into my game.
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you to https://www.freecodecamp.org and Beau Carnes https://www.freecodecamp.org/news/author/beau/ for writing the project article, and finally Ania Kubow for this informative course.
