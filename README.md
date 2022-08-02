@@ -25,7 +25,7 @@ The styling is my own design.
 
 ### Screenshot
 
-![](screenshot.jpg)
+![screenshot](screenshot.jpg)
 
 ### Links
 
