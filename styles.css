@@ -1,4 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  background-image: url(stage-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-family: "Pacifico", cursive;
+  text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 3px #e60073, 0 0 4px #e60073,
+    0 0 5px #e60073, 0 0 10px #e60073, 0 0 10px #e60073;
+}
+
+.app h3 {
+  font-size: 2rem;
+}
+
+.header {
+  margin: auto;
+  color: white;
+  background-color: black;
+  width: 75%;
+  text-align: center;
+  border-radius: 20px;
+  border: whitesmoke 1px solid;
+  box-shadow: 5px 10px;
+}
+
+.questions {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .question-box {
-  background-color: lightseagreen;
+  background-color: rgb(54, 4, 88);
+  border: whitesmoke 2px solid;
+  /* box-shadow: 5px 10px; */
+  height: 300px;
+  width: 150px;
   margin: 15px;
+  color: rgb(230, 230, 230);
+  border-radius: 10px;
+  padding: 0 40px 10px 40px;
+}
+
+/* .question-box h1 {
+
+} */
+
+.question-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.question-button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(151, 185, 253);
+  cursor: pointer;
+}
+
+.question-button:hover {
+  background-color: rgb(223, 46, 212);
+  color: rgb(31, 28, 28);
+}
+
+.question-button:disabled {
+  background-color: lightgray;
+  cursor: auto;
+  color: darkgray;
+}
+
+.answer-display {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer-display.correct {
+  margin-top: 10px;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.answer-display.wrong {
+  margin-top: 10px;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: rgb(151, 4, 65);
+  color: white;
 }
