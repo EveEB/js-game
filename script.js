@@ -82,7 +82,7 @@ function populateQuestions() {
     questionBox.append(questionButtons);
 
     // add buttons to questionButtons
-    question.quiz.forEach((option) => {
+    question.options.forEach((option) => {
       const questionButton = document.createElement("button");
       questionButton.classList.add("question-button");
       questionButton.textContent = option;
