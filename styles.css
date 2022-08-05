@@ -110,3 +110,11 @@ h1 {
   background-color: rgb(151, 4, 65);
   color: white;
 }
+
+.notActive.question-buttons {
+  visibility: hidden;
+}
+
+.active.question-buttons {
+  visibility: visible;
+}
