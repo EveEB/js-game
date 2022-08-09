@@ -19,9 +19,9 @@
 
 I completed the first game in this course from FreeCodeCamp, led by Ania Kubów. It is a single-player word association game.
 
-The styling is my own design.
+The CSS / styling is my own design.
 
-<!-- At the end of the course, I added an extra feature of my own so both of the buttons would be disabled after the user had clicked on their first choice. Before this, the user was able to click on the correct answer and score a point back if their first choice had been wrong, and vice versa: there was the danger of losing a point by being able to click on the wrong answer after submitting the correct answer first. -->
+- I added an extra feature so that both of the buttons would be hidden after the user had clicked on their first choice. Before this, the user was still able to click on the other button they had not clicked i.e. they could score a point back, or unintentionally lose a point. For this reason, I wanted to make sure neither of these outcomes occurred whilst playing the game.
 
 ### Screenshot
 
